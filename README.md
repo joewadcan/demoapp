@@ -6,4 +6,4 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 2. **Clone** that forked repository to Cloud9. 
 
 Welcome to GitHub!
-- Joe
+- Joe (2nd time)
