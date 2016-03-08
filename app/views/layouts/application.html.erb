@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Demoapp</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Demo App</title>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "Demo App", root_path, id: "logo" %>
+        <nav>
+          <ul class="nav navbar-nav pull-right">
+            <li><%= link_to "Home",   root_path %></li>
+            <li><%= link_to "Help",   help_path %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+    
+    <%= yield %>
+    
+      <footer class="footer">
+        <small>
+          Intro To Code
+        </small>
+        <nav>
+          <ul>
+            <li><%= link_to "Contact", 'http://www.twitter.com/joewadcan' %></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
