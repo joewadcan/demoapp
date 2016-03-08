@@ -10,5 +10,12 @@
   <%= @user.email %>
 </p>
 
+<p>
+  <strong>All Tweets:</strong>
+  <% @user.tweets.each do |singletweet| %>
+  <%= singletweet.status %> <br>
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
