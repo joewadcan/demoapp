@@ -7,3 +7,5 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 
 Welcome to GitHub!
 - Joe
+
+:tada: :poop:
