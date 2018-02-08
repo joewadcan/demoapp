@@ -10,6 +10,13 @@ class TweetsControllerTest < ActionController::TestCase
     assert_response :success
     assert_not_nil assigns(:tweets)
   end
+  
+  test "should have right title" do
+    get :index
+    assert_response :success
+    assert_select "h1", "Listing Tweets"
+  end
+  
 
   test "should get new" do
     get :new
