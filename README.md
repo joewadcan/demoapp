@@ -10,4 +10,4 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 Welcome to GitHub!
 - Joe
 
-:tada: :poop:
+[![Build Status](https://travis-ci.org/joewadcan/demoapp.svg?branch=master)](https://travis-ci.org/joewadcan/demoapp)
