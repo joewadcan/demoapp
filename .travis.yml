@@ -1,0 +1,4 @@
+cache: bundler
+language: ruby
+sudo: false
+
