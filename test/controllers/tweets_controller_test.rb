@@ -14,7 +14,7 @@ class TweetsControllerTest < ActionController::TestCase
   test "should have right title" do
     get :index
     assert_response :success
-    assert_select "h1", "Listing Tweets"
+    assert_select "h1", "Listing Joes Tweets"
   end
   
 
