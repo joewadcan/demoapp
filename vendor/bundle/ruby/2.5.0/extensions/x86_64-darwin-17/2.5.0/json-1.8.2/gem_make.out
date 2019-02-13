@@ -1,0 +1,152 @@
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.2/ext/json/ext/generator
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20190212-43958-4c6h6h.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.2/ext/json/ext/generator
+make "DESTDIR=" clean
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/json-1.8.2/ext/json/ext/generator
+make "DESTDIR="
+compiling generator.c
+generator.c:867:25: error: use of undeclared identifier 'rb_cFixnum'
+    } else if (klass == rb_cFixnum) {
+                        ^
+generator.c:869:25: error: use of undeclared identifier 'rb_cBignum'
+    } else if (klass == rb_cBignum) {
+                        ^
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2206:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2201:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2206:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2202:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs+1, varc, vari+1))
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2207:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs+1, varc, vari+1))
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2201:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2206:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2201:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2206:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2201:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generator.c:981:5: warning: division by zero is undefined [-Wdivision-by-zero]
+    rb_scan_args(argc, argv, "01", &opts);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2182:9: note: expanded from macro 'rb_scan_args'
+        rb_scan_args0(argc,argvp,fmt,\
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2355:9: note: expanded from macro 'rb_scan_args0'
+                     (rb_scan_args_verify(fmt, varc), vars))
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2240:11: note: expanded from macro 'rb_scan_args_verify'
+        verify = rb_scan_args_verify_count(fmt, varc); \
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+note: (skipping 5 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2206:6: note: expanded from macro 'rb_scan_args_count_hash'
+     rb_scan_args_count_block(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2201:6: note: expanded from macro 'rb_scan_args_count_block'
+     rb_scan_args_count_end(fmt, ofs, varc, vari) : \
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/2.5.1/include/ruby-2.5.0/ruby/ruby.h:2197:12: note: expanded from macro 'rb_scan_args_count_end'
+    ((vari)/(!fmt[ofs] || rb_scan_args_bad_format(fmt)))
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+6 warnings and 2 errors generated.
+make: *** [generator.o] Error 1
+
+make failed, exit code 2
