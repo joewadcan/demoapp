@@ -1,0 +1,21 @@
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.21/ext/ffi_c
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20190219-94728-17ijsq7.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... no
+checking for shlwapi.h... no
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.21/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.21/ext/ffi_c
+make "DESTDIR="
+Running autoreconf for libffi
+/Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.21/ext/ffi_c/libffi/autogen.sh: line 2: exec: autoreconf: not found
+make: *** ["/Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/ffi-1.9.21/ext/ffi_c/libffi-x86_64-darwin17"/.libs/libffi_convenience.a] Error 127
+
+make failed, exit code 2

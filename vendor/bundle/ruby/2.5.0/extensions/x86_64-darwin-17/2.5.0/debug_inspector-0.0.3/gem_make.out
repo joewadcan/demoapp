@@ -1,0 +1,15 @@
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20190219-82491-rexslt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/jwadcan/GitHubRepos/demoapp/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20190219-82491-1sd7buy
