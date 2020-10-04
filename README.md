@@ -6,7 +6,7 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 1. **Fork** this repo into your GitHub account. 
 2. **Clone** that forked repository to your IDE. 
 
-Making sure it's smooth. 
+3rd try to smooth out identity
 
 Welcome to GitHub!
 - Joe
