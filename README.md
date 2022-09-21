@@ -7,7 +7,7 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 2. **Clone** that forked repository to your IDE. 
 
 Oski Oski Oski, Oye , Oye , Oye !!
-🐻
+🤩
 Go Knicks!  
 
 Welcome to GitHub!
