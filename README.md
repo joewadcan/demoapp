@@ -8,7 +8,6 @@ Hey everyone, here is the template app that we'll use for the rest of class. All
 
 Oski Oski Oski, Oye , Oye , Oye !!
 🤩
-Go Raptors!  
 
 Welcome to GitHub!
 - Joe
